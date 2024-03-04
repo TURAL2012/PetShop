@@ -1,0 +1,24 @@
+.btn0 {
+  width: 45px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  position: absolute;
+  right: 34%;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+  color: #f04336;
+  transition: all 0.6s;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: #f04336;
+    color: white;
+  }
+}

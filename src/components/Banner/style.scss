@@ -1,0 +1,23 @@
+.banner{
+    width: 83%;
+    margin: 0 auto;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 40px;
+    h1{
+        width: 190px;
+        height: 81px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 900;
+        background-color: white;
+        color: #f04336;
+        font-size: 68px;
+        clip-path: polygon(0 0, 100% 0, 96% 100%, 6% 100%);
+        padding-left: 15px;
+        border-radius: 5px;
+    }
+}
