@@ -13,15 +13,17 @@ import "./style.scss";
 import { ToastContainer } from "react-toastify";
 import DetailPage from "../pages/Detail";
 import TopToBtn from "../components/TopToBtn";
+import ScrollToTop from "../components/ScrollToTop";
 
 const AppRouter = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <BrowserRouter>
         <Header />
+        <ScrollToTop/>
         <TopToBtn/>
         <ToastContainer
           position="top-right"

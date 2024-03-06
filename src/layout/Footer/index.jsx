@@ -41,7 +41,36 @@ const Footer = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 col-12 h-100">
               <div className="f-box">
-                <h3>Instagram</h3>
+                <h3>Socials</h3>
+                <div
+                  className="d-flex justify-content-around"
+                  style={{ width: "160px" }}
+                >
+                  <a href="https://github.com/TURAL2012/" target={"_blank"}>
+                    <i
+                      className="fa-brands fa-github"
+                      style={{ color: "#f04336", fontSize: "24px" }}
+                    ></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/bape_tural/"
+                    target={"_blank"}
+                  >
+                    <i
+                      className="fa-brands fa-instagram"
+                      style={{ color: "#f04336", fontSize: "24px" }}
+                    ></i>
+                  </a>
+                  <a
+                    href="https://www.tiktok.com/@bape_tural"
+                    target={"_blank"}
+                  >
+                    <i
+                      className="fa-brands fa-tiktok"
+                      style={{ color: "#f04336", fontSize: "24px" }}
+                    ></i>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-12 px-0 ">
