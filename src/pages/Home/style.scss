@@ -436,5 +436,98 @@ body {
 }
 
 @media screen and (max-width: 576px) {
- 
+  .slider {
+    height: 150vh !important;
+    padding: 100px 0px !important;
+  }
+  .products {
+    padding-top: 450px !important;
+
+    flex-direction: column;
+
+    .ibb {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .inbox1 {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .sale_sect {
+    height: auto !important;
+    padding: 50px 0px;
+  }
+
+  .new_collection {
+    height: 200vh !important;
+    padding: 100px 0px !important;
+
+    .big-box-2 {
+      .img1 {
+        .box-text {
+          padding: 15px !important;
+
+          h3 {
+            font-size: 16px !important  ;
+            text-align: center;
+          }
+        }
+      }
+      .img2 {
+        .box-text {
+          padding: 15px !important;
+          h3 {
+            font-size: 16px !important;
+            text-align: center;
+          }
+        }
+      }
+      .img3 {
+        .box-text {
+          padding: 15px !important;
+          h3 {
+            font-size: 16px !important;
+            text-align: center;
+          }
+        }
+      }
+      .img4 {
+        .box-text {
+          padding: 15px !important;
+          h3 {
+            font-size: 16px !important;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .sub_sect {
+    height: auto !important;
+    padding: 50px 10px !important;
+    margin-top: 100px;
+    h2 {
+      font-size: 24px !important;
+      line-height: 40px;
+    }
+
+    button {
+      width: 92px !important;
+      height: 50px !important;
+    }
+    input {
+      width: 140px !important;
+      height: 50px !important;
+
+      margin-right: 5px !important;
+    }
+  }
 }
+
+
+// git add . 
+// git commit -m “commit”
+// git push -u origin main/master

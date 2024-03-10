@@ -95,49 +95,55 @@ const Home = () => {
           <div className="container-fluid h-100">
             <div className="row h-100">
               <div className="col-lg-12  m-0 d-flex justify-content-between align-items-center">
-                  <div className="inbox1" style={{width:"40%"}}>
-                    <Select
-                      defaultValue="All"
-                      style={{
-                        width: 120,
-                      }}
-                      onChange={sortProducts}
-                      options={[
-                        {
-                          value: "all",
-                          label: "All",
-                        },
-                        {
-                          value: "lowest-price",
-                          label: "Lowest-price",
-                        },
-                        {
-                          value: "highest-price",
-                          label: "Highest-price",
-                        },
-                        {
-                          value: "a-z",
-                          label: "A-Z",
-                        },
-                        {
-                          value: "z-a",
-                          label: "Z-A",
-                        },
-                      ]}
-                    />
+                <div className="ibb d-flex w-100">
+                <div className="inbox1 " style={{ width: "40%" }}>
+                  <Select
+                
+                    defaultValue="All"
+                    style={{
+                      width: 120,
+                    }}
+                    onChange={sortProducts}
+                    options={[
+                      {
+                        value: "all",
+                        label: "All",
+                      },
+                      {
+                        value: "lowest-price",
+                        label: "Lowest-price",
+                      },
+                      {
+                        value: "highest-price",
+                        label: "Highest-price",
+                      },
+                      {
+                        value: "a-z",
+                        label: "A-Z",
+                      },
+                      {
+                        value: "z-a",
+                        label: "Z-A",
+                      },
+                    ]}
+                  />
+                </div>
+                <div
+                  className="inbox1 d-flex justify-content-end "
+                  style={{ width: "60%" }}
+                >
                   </div>
-                  <div className="inbox1 d-flex justify-content-end " style={{width:"60%"}}>
-                    {myCategories.map((item, index) => {
-                      return (
-                        <button
-                          onClick={() => filterForCategory(item)}
-                          className="btn btn-danger m-2"
-                        >
-                          {item}
-                        </button>
-                      );
-                    })}
-                  </div>
+                  {myCategories.map((item, index) => {
+                    return (
+                      <button
+                        onClick={() => filterForCategory(item)}
+                        className="btn btn-danger m-2"
+                      >
+                        {item}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
 
               {state.map((item) => {
