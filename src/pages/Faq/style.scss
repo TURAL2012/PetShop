@@ -1,13 +1,19 @@
-.faq{
-    width: 83%;
-    height: 60vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 50px 0;
-    .accordion{
-        width: 80%;
-      
-    }
+.faq {
+  width: 83%;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 50px 0;
+  .accordion {
+    width: 80%;
+    
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .faq {
+    height: auto !important;
+  }
 }

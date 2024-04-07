@@ -23,6 +23,7 @@ const TopToBtn = () => {
     <>
       <button
         onClick={scrollTop}
+        className="ttb"
         style={{
           position: "fixed",
           right: "30px",

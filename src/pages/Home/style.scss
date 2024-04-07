@@ -512,6 +512,15 @@ body {
     h2 {
       font-size: 24px !important;
       line-height: 40px;
+
+      span {
+        clip-path: polygon(0 0, 100% 0, 96% 100%, 6% 100%) !important;
+        padding: 5px !important;
+        border-radius: 5px !important;
+        color: #f04336 !important;
+        background-color: white  ;
+        height: 50px !important;
+      }
     }
 
     button {
@@ -527,7 +536,6 @@ body {
   }
 }
 
-
-// git add . 
+// git add .
 // git commit -m “commit”
 // git push -u origin main/master

@@ -87,9 +87,6 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* {data.slice(0, 3).map((item, index) => {
-          return <SingleCard product={item} key={item.id} />;
-        })} */}
 
         <section className="products">
           <div className="container-fluid h-100">

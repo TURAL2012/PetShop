@@ -88,3 +88,15 @@
     }
   }
 }
+
+
+@media screen and (max-width: 576px) {
+.main{
+  width: 83% !important;
+
+  .table{
+    width: 100% !important;
+  }
+}
+
+}
